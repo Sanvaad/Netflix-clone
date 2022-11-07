@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: "Poppins";
+}
+
+/* NAVIGATION */
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.netflix {
+  height: 9rem;
+}
+
+.sign-in {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  align-items: center;
+}
+
+.btn-english {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-style: none;
+  border: 1px solid #fff;
+  text-decoration: none;
+  background-color: transparent;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.btn-sign-in {
+  padding: 1.2rem 2.4rem;
+  background-color: #fff;
+  margin-right: 6rem;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.2rem;
+  background-color: red;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/IN-en-20221010-popsignuptwoweeks-perspective_alpha_website_large.jpeg);
+
+  background-size: cover;
+  height: 94vh;
+  border-bottom: 8px solid rgba(49, 48, 48, 0.821);
+}
+
+.main-heading {
+  line-height: 1.2;
+  font-size: 4.8rem;
+  font-weight: 500;
+  margin-bottom: 1.4rem;
+}
+
+.heading-description {
+  font-size: 2.3rem;
+  font-weight: 300;
+  margin-bottom: 2.2rem;
+}
+
+.text-box {
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  width: 53rem;
+  padding-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  transform: translate(55%, -3%);
+  background-color: transparent;
+}
+
+.primary-heading {
+  font-size: 4.4rem;
+  font-weight: 600;
+}
+
+.secondary-heading {
+  font-weight: 300;
+  font-size: 2.3rem;
+  margin-bottom: 2.2rem;
+}
+
+.description {
+  font-weight: 200;
+  font-size: 1.5rem;
+  margin-bottom: 1.4rem;
+}
+
+.cta {
+  display: inline-flex;
+  gap: 0rem;
+}
+
+.cta .icon {
+  text-align: center;
+}
+
+.cta .btn {
+  padding: 1.7rem;
+}
+
+.email {
+  border: none;
+  padding: 1.6rem 3.2rem;
+  /* margin-right: 17rem; */
+  width: 40rem;
+}
+.sign-up {
+  font-weight: 300;
+  font-size: 2.2rem;
+  border: none;
+  width: 10rem;
+  width: 20rem;
+  color: #fff;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 23rem */
+  align-items: center;
+}
+
+/* *************************** */
+
+.section-1 {
+  background-color: black;
+  border-bottom: 4px solid rgba(108, 105, 105, 0.9);
+}
+
+.container {
+  max-width: 120rem;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.text-box-1 {
+  color: #fff;
+  margin-left: 3rem;
+}
+
+.tv-box {
+  padding-top: 0;
+}
+
+.heading--1 {
+  padding-bottom: 1rem;
+}
+
+.heading--2 {
+  font-size: 2.4rem;
+}
+
+.tv-img {
+  /* width: 79rem; */
+  width: 100%;
+  /* margin-left: 10rem; */
+}
+/**********************************/
+
+.section-2 {
+  background-color: black;
+  padding-bottom: 2rem;
+  border-bottom: 4px solid rgba(108, 105, 105, 0.9);
+}
+
+.mobile-img {
+  width: 80%;
+}
+
+.heading--11 {
+  margin-top: 8rem;
+}
+
+/**********************************/
+
+.section-3 {
+  background-color: black;
+  padding: 3px;
+  border-bottom: 4px solid rgba(108, 105, 105, 0.9);
+}
+
+.watch-anywhere {
+  margin-top: 8rem;
+}
+
+.mac-box {
+  margin-top: 1rem;
+}
+
+.macbook-img {
+  width: 100%;
+}
+
+.watch-anywhere {
+  margin-bottom: 7rem;
+}
+
+/**********************************/
+
+.section-4 {
+  background-color: black;
+  padding: 10px;
+  border-bottom: 4px solid rgba(108, 105, 105, 0.9);
+}
+
+.children-text {
+  margin-top: 6rem;
+}
+
+.children-img {
+  width: 87%;
+  padding-top: 7rem;
+}
+
+.h-1 {
+  line-height: 1.3;
+  margin-bottom: 6px;
+}
+
+/**********************************/
+/* ACCORDION */
+
+.primary-heading {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+}
+
+.section-5 {
+  background-color: black;
+  padding-bottom: 6rem;
+  border-bottom: 4px solid rgba(108, 105, 105, 0.9);
+}
+
+.accordion {
+  background-color: #303030;
+  width: 70rem;
+  margin-top: 4rem;
+  margin: 0 auto;
+  padding: 3rem;
+  display: grid;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-close {
+  font-size: 3.3rem;
+}
+
+.secondary-heading {
+  color: #fff;
+}
+
+.icon-close {
+  color: #fff;
+}
+
+.primary-heading {
+  margin-bottom: 3rem;
+}
+
+.heading {
+  margin-bottom: 10px solid black;
+}
+
+.accordion {
+  margin-bottom: 3rem;
+  margin-bottom: 0.6rem;
+  /* height: 40rem; */
+}
+
+.accordion-close {
+  height: 9rem;
+}
+
+.accordion-last {
+  margin-bottom: 6rem;
+}
+
+.cta-last {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-last-heading {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 200;
+  margin-bottom: 2rem;
+}
+
+.cta-action {
+  padding: 1.7rem;
+}
+
+.email-last {
+  padding: 1.6em 3.2em;
+  width: 50rem;
+}
+
+.btn-last {
+  display: inline-block;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 100;
+  padding: 2rem 4rem;
+  background-color: red;
+  color: #fff;
+}
+
+.cta-cta {
+  display: inline-flex;
+  gap: 0rem;
+}
+
+.footer {
+  color: rgba(108, 105, 105, 0.9);
+  background-color: black;
+  display: grid;
+  place-content: center;
+}
+
+.questions {
+  margin-top: 8rem;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.footer-grid {
+  max-width: 100rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 1.2rem;
+  gap: 0 10rem;
+}
+
+.grid-gap {
+  margin-bottom: 2rem;
+}
+
+.last-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  border: none;
+  padding: 1.3rem 2.6rem;
+  color: #fff;
+  font-weight: 200;
+  font-size: 2rem;
+  fill: rgba(108, 105, 105, 0.9);
+  border: 1px solid rgba(108, 105, 105, 0.9);
+  background-color: black;
+}
+
+.eng {
+  font-size: 1.3rem;
+  color: rgba(108, 105, 105, 0.9);
+}
+
+.icon-gl,
+.icon-do {
+  color: rgba(108, 105, 105, 0.9);
+  font-size: 1.3rem;
+}
